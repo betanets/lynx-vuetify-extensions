@@ -10,12 +10,17 @@
 </template>
 
 <script>
+  import { Resize } from "vuetify/lib/directives";
+
   export default {
     name: "lynx-base-resizable-list-page",
     data() {
       return {
         tableHeight: 0
       }
+    },
+    directives: {
+      Resize
     },
     props: {
       footerHeight: {

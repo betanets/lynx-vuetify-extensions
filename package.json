@@ -1,6 +1,6 @@
 {
   "name": "@betanets/lynx-vuetify-extensions",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/lynx-vuetify-extensions.ssr.js",
   "browser": "dist/lynx-vuetify-extensions.esm.js",
